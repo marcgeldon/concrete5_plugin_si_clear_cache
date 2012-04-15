@@ -32,7 +32,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 class SiClearCachePackage extends Package {
 
 	protected $pkgHandle = 'si_clear_cache';
-	protected $appVersionRequired = '5.4.2.2';
+	protected $appVersionRequired = '5.3.1';
 	protected $pkgVersion = '1.0'; 
 	
 	public function getPackageName() {
